@@ -26,6 +26,7 @@ Game::Game( MainWindow& wnd )
 	wnd( wnd ),
 	gfx( wnd )
 {
+	Vec2_<int> foo(2, 4);
 }
 
 void Game::Go()
